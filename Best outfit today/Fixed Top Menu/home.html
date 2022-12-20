@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+    <title>Best Outfit Today</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script src="openweather.js"></script>
+        
+    <!-- run weather script
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+   
+
+</head>
+
+<body>
+<!-- Tab links -->
+
+<div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
+    <button class="tablinks" onclick="openCity(event, 'male_outfit')">Male Outfit</button>
+    <button class="tablinks" onclick="openCity(event, 'female_outfit')">Female Outfit</button>
+  </div>
+  
+  <!-- Tab content -->
+  <div id="Home" class="tabcontent">
+    <h3>Today's Weather Forecast is:</h3>
+    <p>67 degrees</p>
+    
+    <h1><div id="temp"></div>
+    <!--  <div id="minutely"></div></h1>-->
+    
+    <h2><div id="location"></div></h2>
+
+  </div>
+  
+  <div id="male_outfit" class="tabcontent">
+    <h3>Paris</h3>
+    <p><img src="male attires.jpg"></p>
+  </div>
+  
+    <div id="female_outfit" class="tabcontent">
+        <h3>Tokyo</h3>
+        <p><img src="female attires.jpg"></p>
+    </div>
+    </body>
+    <script src="app.js"></script>
+  </html>

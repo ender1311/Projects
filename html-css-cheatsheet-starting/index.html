@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Web Dev Cheat-sheets</title>
+    <link href="index.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Web Dev Cheat-sheets</h1>
+      <nav>
+        <ul>
+          <li><a href="#HTML">HTML</a></li>
+          <li><a href="#CSS">CSS</a></li>
+          <li><a href="#DOM">DOM</a></li>
+          <li><a href="#JS">JS</a></li>
+          <li><a href="#git">Git</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+
+    <section id="HTML">
+      <h2>HTML Cheat-sheet</h2>
+      <article id="form">
+        <h3>Forms</h3>
+        <pre>&lt;form&gt;
+
+  &lt;fieldset&gt;
+    &lt;legend&gt;Describes fieldset&lt;/legend&gt;
+
+    &lt;p&gt;
+      &lt;input type="radio" name="vertical" id="option1" value="top"&gt;
+      &lt;label for="option1"&gt;Top&lt;/label&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;
+      &lt;label for="option2"&gt;
+        &lt;input type="radio" name="vertical" id="option2" value="bottom"&gt; Bottom
+      &lt;/label&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;
+      &lt;label for="horizontal"&gt;
+        Horizontal:
+      &lt;/label&gt;
+      &lt;select id="horizontal" name="horizontal"&gt;
+        &lt;option value="left"&gt;Left&lt;/option&gt;
+        &lt;option value="middle"&gt;Middle&lt;/option&gt;
+        &lt;option value="right"&gt;Right&lt;/option&gt;
+      &lt;/select&gt;
+    &lt;/p&gt;
+
+  &lt;/fieldset&gt;
+
+&lt;/form&gt;</pre>
+      </article>
+      <article id="semantic">
+        <h3>Semantic Markup</h3>
+        <pre>&lt;html lang="en"&gt;
+
+  &lt;head&gt;
+    &lt;title&gt;Title&lt;title&gt;
+  &lt;/head&gt;
+
+  &lt;body&gt;
+
+    &lt;header&gt;
+      Logo, title, navigation
+      &lt;nav&gt;
+        Primary and secondary menus but ever nest navs
+      &lt;/nav&gt;
+    &lt;/header&gt;
+
+    &lt;section&gt;
+      Related grouping of semantic meaning
+
+      &lt;article&gt;
+        Self-contained content
+      &lt;/article&gt;
+
+      &lt;article&gt;
+        Would still make sense if all other content removed
+
+        &lt;aside&gt;
+          &lt;blockquote&gt;
+            Related to main but outside the main flow
+          &lt;/blockquote&gt;
+        &lt;/aside&gt;
+
+      &lt;/article&gt;
+    &lt;/section&gt;
+
+    &lt;footer&gt;
+      Copyright, contact, links
+    &lt;/footer&gt;
+
+  &lt;/body&gt;
+
+&lt;/html&gt;</pre>
+      </article>

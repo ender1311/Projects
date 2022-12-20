@@ -1,0 +1,19 @@
+body {
+    font-family: "Lucida Grande", sans-serif;
+    background-color: darkgrey;
+  }
+  nav {
+    display: inline-flex;
+  }
+  
+  h1 {
+    display: inline;
+    background-color: dimgrey;
+    color: lightgrey;
+    padding: 1em;
+  }
+  h2 {
+    background-color: slategrey;
+    color: darkslategrey;
+    padding: 1em;
+  }

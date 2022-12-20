@@ -1,0 +1,84 @@
+<html lang="en">
+
+  <head>
+    <title>Best Outfit Today</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script src="java.js"></script>
+  </head>
+
+  <body>
+
+    
+        <h1>Best Outfit Today</h1> 
+        <!-- Logo, title, navigation -->
+      <div class="navbar"></div>
+      <button class="tablink" onclick="openPage('Home', this, '#87CEEB')" id="defaultOpen">Home</button>
+      <button class="tablink" onclick="openPage('male_outfit', this, 'green')">Male Outfit</button>
+      <button class="tablink" onclick="openPage('female_outfit', this, '#FFB6C1')">Female Outfit</button>
+      <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+      
+      <div id="Home" class="tabcontent">
+        <h3>Home</h3>
+        <p>Home is where the heart is..</p>
+      </div>
+      
+      <div id="male_outfit" class="tabcontent">
+        <h3>Male Outfit</h3>
+        <p><img src="male attires.jpg"></p>
+      </div>
+      
+      <div id="female_outfit" class="tabcontent">
+        <h3>Female outfits</h3>
+        <p><img src="female attires.jpg"></p>
+      </div>
+      
+      <div id="About" class="tabcontent">
+        <h3>About</h3>
+        <p>Who we are and what we do.</p>
+      </div>
+    </div>
+    
+    <div class="main">
+        <p> Sample Text</p>
+    </div>
+
+    <section>
+      Related grouping of semantic meaning
+
+      <article>
+        <div class="animated pt2 pt0-ns fadeIn tc tr-ns lato relative" style="z-index:99999">
+            <label class="relative">
+                <h3 class="gray fw3 mv0 pv2 pv1-m dn db-ns f6-m f4-ns">set your current location</h3>
+                <input type="text" autoComplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" value="" style="padding-right:28px;vertical-align:middle" class="near-black w-100 tc tr-ns input-reset ba b--white f4 f4-m f3-ns dib outline-0"/>
+                <a aria-label="enable current location" class="link fr db absolute right-0 mid-gray" href="#" style="bottom:-8px">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="width:20px">
+                        <path fill="none" d="M0 0h24v24H0V0z">
+                        </path>
+                        <path fill="currentColor" d="M21 3L3 10.53v.98l6.84 2.65L12.48 21h.98L21 3z">
+                        </path>
+                    </svg>
+                </a>
+            </label>
+            <ul style="z-index:999" class="list db center w-100 mw6-ns absolute right-0 bg-white ph0"></ul>
+        </div>
+      </article>
+
+      <article>
+        Would still make sense if all other content removed
+
+        <aside>
+          <blockquote>
+            Related to main but outside the main flow
+          </blockquote>
+        </aside>
+
+      </article>
+    </section>
+
+    <footer>
+      Copyright, contact, links
+    </footer>
+
+  </body>
+
+</html>

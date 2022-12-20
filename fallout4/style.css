@@ -4,7 +4,7 @@
     opacity: 0.9;
     color: #1bff80;
     text-align: center;
-    font-size: 22px;
+    font-size: 18px;
 
     /* reset browser's default values */
     margin: 0;
@@ -61,6 +61,13 @@ main {
     align-items: center;
 }
 
+#title {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 40px;
+    margin-bottom: -35px;
+}
+
 #story {
     width: 90%;
     max-height: 700px;
@@ -98,6 +105,14 @@ main {
     max-width: 800px;
     padding-top: 70px;
 }
+
+#story h2,
+#pipboy h2,
+#locations h2,
+#equipment h2 {
+    color:#2ecfff;
+    font-size: 32px;
+} 
 
 .location_container {
     width: 100%;
@@ -138,4 +153,13 @@ figure img {
     max-height: 100%;
     display: block;
     align-items: center;
+}
+
+figcaption {
+    color: #ffb641;
+}
+
+.footer {
+    margin-top: 100px;
+    padding: 20px;
 }

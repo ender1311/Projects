@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Projects/chinesetakeout/static/css/main.e629be41.css",
+    "main.js": "/Projects/chinesetakeout/static/js/main.12efb5b3.js",
+    "index.html": "/Projects/chinesetakeout/index.html",
+    "main.e629be41.css.map": "/Projects/chinesetakeout/static/css/main.e629be41.css.map",
+    "main.12efb5b3.js.map": "/Projects/chinesetakeout/static/js/main.12efb5b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e629be41.css",
+    "static/js/main.12efb5b3.js"
+  ]
+}

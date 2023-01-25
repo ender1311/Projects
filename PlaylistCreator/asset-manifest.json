@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Projects/PlaylistCreator/static/css/main.d869a885.css",
+    "main.js": "/Projects/PlaylistCreator/static/js/main.64e3e36a.js",
+    "static/js/787.3f83e6f4.chunk.js": "/Projects/PlaylistCreator/static/js/787.3f83e6f4.chunk.js",
+    "static/media/background_photo_desktop.jpg": "/Projects/PlaylistCreator/static/media/background_photo_desktop.b962f726054e720119da.jpg",
+    "index.html": "/Projects/PlaylistCreator/index.html",
+    "main.d869a885.css.map": "/Projects/PlaylistCreator/static/css/main.d869a885.css.map",
+    "main.64e3e36a.js.map": "/Projects/PlaylistCreator/static/js/main.64e3e36a.js.map",
+    "787.3f83e6f4.chunk.js.map": "/Projects/PlaylistCreator/static/js/787.3f83e6f4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d869a885.css",
+    "static/js/main.64e3e36a.js"
+  ]
+}

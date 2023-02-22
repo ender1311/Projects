@@ -10,6 +10,7 @@ export const CurrencyFilter = ({ currencyFilter, dispatch }) => {
 
   return (
     <div id="currency-filters-container">
+      <h2>Welcome to Chinese On Demand Kitchen TakeOut</h2>
       <h3>Choose a currency</h3>
       {currenciesData.map(createCurrencyButton)}
     </div>

@@ -37,6 +37,12 @@ export const Cart = (props) => {
           {getCurrencySymbol(currencyFilter)}{total} {currencyFilter}
         </span>
       </h3>
+        <img 
+        src="https://ender1311.github.io/Projects/chinese_takeout/public/thankyou.webp"
+        height="200px"
+        width = "auto"
+        >
+      </img>
     </div>
   );
 

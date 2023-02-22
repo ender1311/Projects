@@ -38,6 +38,7 @@ export const SearchTerm = (props) => {
           <img src={clearIconUrl} alt="" width="15px" height="16px" />
         </button>
       )}
+      <p>Try searching for "chicken", "beef", "tofu", or "kung pao"</p>
     </div>
   );
 };

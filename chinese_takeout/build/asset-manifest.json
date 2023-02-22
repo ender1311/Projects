@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Projects/cto/static/css/main.e629be41.css",
-    "main.js": "/Projects/cto/static/js/main.85635704.js",
-    "index.html": "/Projects/cto/index.html",
-    "main.e629be41.css.map": "/Projects/cto/static/css/main.e629be41.css.map",
-    "main.85635704.js.map": "/Projects/cto/static/js/main.85635704.js.map"
+    "main.css": "/Projects/chinese_takeout/build/static/css/main.e629be41.css",
+    "main.js": "/Projects/chinese_takeout/build/static/js/main.85635704.js",
+    "index.html": "/Projects/chinese_takeout/build/index.html",
+    "main.e629be41.css.map": "/Projects/chinese_takeout/build/static/css/main.e629be41.css.map",
+    "main.85635704.js.map": "/Projects/chinese_takeout/build/static/js/main.85635704.js.map"
   },
   "entrypoints": [
     "static/css/main.e629be41.css",

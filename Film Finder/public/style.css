@@ -19,8 +19,8 @@ body {
 }
 
 #movieInfo {
-    width:  65%;
-    margin:  32px auto;
+    height:  60vw;
+    margin:  20px auto;
 }
 
 #movieInfo:after {
@@ -35,8 +35,8 @@ body {
 }
 
 img#moviePoster {
-    height: 70vw;
-    width: auto;
+    width:  100%;
+    height:  auto;
     display:  block;
     margin:  auto;
 }

@@ -8,7 +8,7 @@ body {
     margin: 0px auto;
     display: block;
     font-family: 'Staatliches', sans-serif;
-    font-size: 80px;
+    font-size: 40px;
 }
 
 #genreForm, #playBtn {
@@ -34,10 +34,9 @@ body {
     float:  left;
 }
 #moviePoster {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    float: left;
+    width: 25%;
+    margin-left: 200px;
 } 
 
 img#moviePoster {

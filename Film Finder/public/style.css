@@ -19,7 +19,7 @@ body {
 }
 
 #movieInfo {
-    height:  400px;
+    height:  65%;
     margin:  20px auto;
 }
 
@@ -35,8 +35,8 @@ body {
 }
 
 img#moviePoster {
-    width:  100%;
-    height:  auto;
+    width:  auto;
+    height:  300px;
     display:  block;
     margin:  auto;
 }

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://ender1311.github.io/personal_website/background_styles.css">
+  <link rel="stylesheet" href="https://ender1311.github.io/personal_website/styles.css">
+  <link rel="icon" href="https://ender1311.github.io/personal_website/files/blue_cloud.ico" type="image/png">
+  <script src="https://ender1311.github.io/personal_website/script.js" defer></script>
+  <title>Contact Me</title>
+</head>
+
+
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="brand-title">Coding Central</div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li>
+            <a 
+            href="https://ender1311.github.io/personal_website/about.html"
+            >
+            About
+            </a>
+          </li>
+          <li>
+            <a 
+            href="https://ender1311.github.io/personal_website/Resume.html"
+            >
+            Résumé
+            </a>
+          </li>
+          <li>
+            <a 
+            href="https://ender1311.github.io/personal_website/projects.html"
+            >
+            Projects
+            </a>
+          </li>
+          <li>
+            <a 
+            href="https://ender1311.github.io/personal_website/publications.html"
+            >
+            Academic Publications
+            </a>
+          </li>
+          <li><a href="https://ender1311.github.io/personal_website/contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+<main>
+	<h1>Contact Me</h1>
+	<form action="submit-form.php" method="POST">
+		<h3>
+        Name: Dan Luk
+      <br>
+      <br>
+    		Email: 
+        <a href="mailto:danluk1311@gmail.com">
+          danluk1311@gmail.com
+        </a>
+      <br>
+      <br>
+        LinkedIn: 
+        <a href="https://www.linkedin.com/in/danluk1311/">
+          https://www.linkedin.com/in/danluk1311/
+        </a>
+      <br>
+        </h3>
+
+		
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label for="linkedin">LinkedIn:</label>
+            <input type="linkedin" id="linkedin" name="linkedin"><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+    
+            <input type="submit" value="Submit">
+        </form>
+	</main>
+</body>
+</html>

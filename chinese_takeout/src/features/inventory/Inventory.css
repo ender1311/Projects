@@ -2,6 +2,6 @@
     display: flex;
     flex-wrap: wrap;
     grid-gap: 10px;
-
+    list-style: none;
 }
 

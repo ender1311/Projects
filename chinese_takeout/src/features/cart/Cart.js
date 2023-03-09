@@ -38,7 +38,7 @@ export const Cart = (props) => {
         </span>
       </h3>
         <img 
-        src="https://ender1311.github.io/Projects/chinese_takeout/public/thankyou.webp"
+        src="https://ender1311.github.io/coding_central/imgs/731d62e418fb3d3747e4b501dc9222dd.gif"
         height="200px"
         width = "auto"
         >

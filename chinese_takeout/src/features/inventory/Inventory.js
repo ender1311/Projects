@@ -32,7 +32,8 @@ export const Inventory = ({ inventory, currencyFilter, dispatch }) => {
     return (
       
       <li key={name} className="item">
-        <img src={img} alt={''} width = '200px' height = '300px' />
+       
+        <img src={img} alt={''}  />
         <h3>{name}</h3>
         <h3 className="price">
           {getCurrencySymbol(currencyFilter)}

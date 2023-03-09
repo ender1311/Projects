@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Projects/chinese_takeout/build/static/css/main.1f7a6e1d.css",
-    "main.js": "/Projects/chinese_takeout/build/static/js/main.c214bb77.js",
+    "main.js": "/Projects/chinese_takeout/build/static/js/main.71aa9a79.js",
     "index.html": "/Projects/chinese_takeout/build/index.html",
     "main.1f7a6e1d.css.map": "/Projects/chinese_takeout/build/static/css/main.1f7a6e1d.css.map",
-    "main.c214bb77.js.map": "/Projects/chinese_takeout/build/static/js/main.c214bb77.js.map"
+    "main.71aa9a79.js.map": "/Projects/chinese_takeout/build/static/js/main.71aa9a79.js.map"
   },
   "entrypoints": [
     "static/css/main.1f7a6e1d.css",
-    "static/js/main.c214bb77.js"
+    "static/js/main.71aa9a79.js"
   ]
 }

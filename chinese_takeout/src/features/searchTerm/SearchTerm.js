@@ -1,10 +1,12 @@
 import React from 'react';
 import { setSearchTerm, clearSearchTerm } from './searchTermSlice.js';
 import './SearchTerm.css'
-const searchIconUrl =
-  'https://static-assets.codecademy.com/Courses/Learn-Redux/Recipes-App/icons/search.svg';
+
+const searchIconUrl = 
+ 'https://static-assets.codecademy.com/Courses/Learn-Redux/Recipes-App/icons/search.svg';
 const clearIconUrl =
-  'https://static-assets.codecademy.com/Courses/Learn-Redux/Recipes-App/icons/clear.svg';
+ 'https://freesvg.org/img/close-button.png';
+  //  'https://static-assets.codecademy.com/Courses/Learn-Redux/Recipes-App/icons/clear.svg';
 
 export const SearchTerm = (props) => {
   const { searchTerm, dispatch } = props;
@@ -20,13 +22,14 @@ export const SearchTerm = (props) => {
 
   return (
     <div id="search-container">
-      <img id="search-icon" alt="" src={searchIconUrl} width="15px" height="16px" />
+      <img id="search-icon" alt="search" src={searchIconUrl} />
       <input
         id="search"
         type="text"
         value={searchTerm}
         onChange={onSearchTermChangeHandler}
-        placeholder="Search products"
+        placeholder="    Search products"
+        
       />
       {searchTerm.length > 0 && (
         <button
@@ -35,7 +38,7 @@ export const SearchTerm = (props) => {
           id="search-clear-button"
           margin="20px"
         >
-          <img src={clearIconUrl} alt="" width="15px" height="16px" />
+          <img id="clear-icon" src={clearIconUrl} alt=""  />
         </button>
       )}
       <p>Try searching for "chicken", "beef", "tofu", or "kung pao"</p>

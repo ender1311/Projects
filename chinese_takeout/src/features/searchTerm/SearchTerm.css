@@ -1,9 +1,28 @@
 button{
-    margin:15px;
+    margin:25px;
   }
 
-  img {
-    width: 40px;
-    height:40px;
+  #search-icon {
+    width: 50px;
+    height:50px;
     margin: -15px;
+  }
+
+  #search {
+    color: white;
+    font-size: 30px;
+    margin-left:50px;
+    
+  }
+
+  #clear-icon {
+    height:60px;
+    width:60px;
+    transform: translate(-40px, 20px);
+
+    
+  }
+
+  #search-clear-button {
+    cursor:pointer;
   }

@@ -41,6 +41,7 @@ export const Cart = (props) => {
         src="https://ender1311.github.io/coding_central/imgs/731d62e418fb3d3747e4b501dc9222dd.gif"
         height="200px"
         width = "auto"
+        alt='thank you'
         >
       </img>
     </div>
@@ -59,12 +60,13 @@ export const Cart = (props) => {
         <select
           className="item-quantity"
           value={item.quantity}
+          style={{ color: "white", height: "4rem", width: "4rem", fontSize:"20px", borderWidth:"5px", borderRadius:"10px", borderColor:"white" }}
           onChange={(e) => {
             onInputChangeHandler(name, e.target.value);
           }}
         >
-          {[...Array(100).keys()].map((_, index) => (
-            <option key={index} value={index}>
+          {[...Array(10).keys()].map((_, index) => (
+            <option key={index} value={index} style={{ color: "white", fontSize:"20px" }}>
               {index}
             </option>
           ))}

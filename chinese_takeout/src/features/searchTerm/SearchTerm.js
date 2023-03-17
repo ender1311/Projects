@@ -3,7 +3,8 @@ import { setSearchTerm, clearSearchTerm } from './searchTermSlice.js';
 import './SearchTerm.css'
 
 const searchIconUrl = 
- 'https://static-assets.codecademy.com/Courses/Learn-Redux/Recipes-App/icons/search.svg';
+'https://files.nohat.cc/file-tmp/m2i8G6H7d3d3H7K9.png';
+//  'https://static-assets.codecademy.com/Courses/Learn-Redux/Recipes-App/icons/search.svg';
 const clearIconUrl =
  'https://freesvg.org/img/close-button.png';
   //  'https://static-assets.codecademy.com/Courses/Learn-Redux/Recipes-App/icons/clear.svg';
@@ -38,7 +39,7 @@ export const SearchTerm = (props) => {
           id="search-clear-button"
           margin="20px"
         >
-          <img id="clear-icon" src={clearIconUrl} alt=""  />
+          <img id="clear-icon" src={clearIconUrl} alt="clear icon"  />
         </button>
       )}
       <p>Try searching for "chicken", "beef", "tofu", or "kung pao"</p>

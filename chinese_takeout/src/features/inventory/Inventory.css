@@ -32,10 +32,13 @@ button {
     height: 80px;
     width: 160px;
     border-radius: 200px;
+    font-size: 18px;
     
 }
 .add-to-cart-button:hover {
     background-color: rgb(128, 100, 49);
+    cursor: pointer;
+
 }
 .currency-button {
     color: #ffffff; /* set the text color */
@@ -100,4 +103,7 @@ li img {
     margin-top: 10px;
     margin-left: 30px;
   }
+  
+
+
   

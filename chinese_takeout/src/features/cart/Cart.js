@@ -6,6 +6,8 @@ import {
 
 // Import the changeItemQuantity() action creator.
 import {changeItemQuantity} from './cartSlice.js';
+import "./cart.css";
+
 
 export const Cart = (props) => {
   const { cart, currencyFilter, dispatch } = props;
@@ -30,13 +32,20 @@ export const Cart = (props) => {
 
   return (
     <div id="cart-container">
-      <ul id="cart-items">{cartElements}</ul>
-      <h3 className="total">
-        Total{' '}
-        <span className="total-value">
+      <ul id="cart-items" title="Cart Items">{cartElements}</ul>
+      
+      {/* <hr style={{borderTop: "3px solid white", width: "20%"}} /> */}
+
+      <p className="total"
+          style={{fontSize:"40px", fontWeight:"bold"}}
+          >
+        Total:{''}
+        <span className="total-value"
+              style={{fontSize:"40px", fontWeight:"bold", borderWidth:"5px", borderRadius:"10px", borderColor:"white", textAlign: "center" }}
+        >
           {getCurrencySymbol(currencyFilter)}{total} {currencyFilter}
         </span>
-      </h3>
+      </p>
         <img 
         src="https://ender1311.github.io/coding_central/imgs/731d62e418fb3d3747e4b501dc9222dd.gif"
         height="200px"
@@ -58,19 +67,40 @@ export const Cart = (props) => {
       <li key={name}>
         <p>{name}</p>
         <select
-          className="item-quantity"
-          value={item.quantity}
-          style={{ color: "white", height: "4rem", width: "4rem", fontSize:"20px", borderWidth:"5px", borderRadius:"10px", borderColor:"white" }}
-          onChange={(e) => {
-            onInputChangeHandler(name, e.target.value);
-          }}
+            className="item-quantity"
+            value={item.quantity}
+            style={{
+              color: "white",
+              height: "4rem",
+              width: "4rem",
+              fontSize: "20px",
+              borderWidth: "5px",
+              borderRadius: "10px",
+              borderColor: "white",
+              textAlign: "center",
+            }}
+            onChange={(e) => {
+              onInputChangeHandler(name, e.target.value);
+            }}
         >
-          {[...Array(10).keys()].map((_, index) => (
-            <option key={index} value={index} style={{ color: "white", fontSize:"20px" }}>
-              {index}
-            </option>
-          ))}
-        </select>
+            {[...Array(10).keys()].map((_, index) => (
+              <option
+                key={index}
+                value={index}
+                style={{
+                  color: "white",
+                  fontSize: "20px",
+                  textAlign: "center",
+                  margin: "20px", // add margin to the option element
+                  padding: "20px"
+                }}
+                className="item-quantity-option"
+              >
+                {index}
+              </option>
+            ))}
+          </select>
+
       </li>
     );
   }

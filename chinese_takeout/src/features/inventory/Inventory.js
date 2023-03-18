@@ -18,6 +18,7 @@ export const Inventory = ({ inventory, currencyFilter, dispatch }) => {
 
   const onClickHandler = (inventoryItem) => {
     dispatch(addItem(inventoryItem));
+    alert(`${inventoryItem.name} has been added to your cart!`);
   };
 
   if (inventory.length === 0) {

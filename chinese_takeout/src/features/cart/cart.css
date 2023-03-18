@@ -1,0 +1,17 @@
+#cart-items {
+    border: 3px solid white;
+    padding:25px;
+    margin-bottom: 15px;
+    width: 20%;
+  }
+  
+  #cart-items::before {
+    content: "Cart Items";
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 32px;
+    color:white;
+    text-align: center;
+    text-decoration: underline;
+  }
